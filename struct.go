@@ -12,7 +12,7 @@ type User struct {
 }
 
 func main() {
-	u := User{"john Doe", "gardender", 43,1234}
+	u := User{"john Doe", "gardender", 43,1234,"pdpl"}
 
-	fmt.Printf("%s  is %d years old and he is a %s\n", u.name, u.name, u.occupation,u.rooll)
+	fmt.Printf("%s  is %d years old and he is a %s\n", u.name, u.name, u.occupation,u.rooll,u.adress)
 }
