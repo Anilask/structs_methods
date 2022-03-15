@@ -8,6 +8,7 @@ type User struct {
 	occupation string
 	age        int
 	rooll      int
+	adress     string
 }
 
 func main() {
